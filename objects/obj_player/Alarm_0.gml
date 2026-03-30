@@ -1,0 +1,9 @@
+global.dead = false;
+image_angle = 0;
+gravity = 0;
+vspeed = 0;
+hspeed = 0;
+x = xstart;
+y = ystart;
+velh = vel;
+velv = 0;
