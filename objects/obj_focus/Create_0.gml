@@ -10,3 +10,7 @@ panel_v = string_v + (margen_v*2);
 
 pos_h = room_width / 2 - (panel_h / 2);
 pos_v = room_height / 2 - (panel_v / 2);
+
+change_timer = 30;
+change = true;
+text_c = noone;

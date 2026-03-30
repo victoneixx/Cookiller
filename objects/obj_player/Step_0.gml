@@ -11,6 +11,7 @@ velh += vel;
 velv += gravi;
 velh = clamp(velh, -3, 3);
 velv = clamp(velv, -8, 8);
+if(velh != 0) image_xscale = sign(velh);
 
 if(place_meeting(x+velh, y, obj_wall)){
 	vel *= -1;
