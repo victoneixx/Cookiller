@@ -3,6 +3,8 @@ if(keyboard_check_pressed(vk_escape)) game_end();
 if(global.dead && alarm[0] < 0) alarm[0] = 60;
 if(global.dead) image_angle += 8;
 
+if(!window_has_focus()) exit;
+
 var _jump = keyboard_check(vk_space);
 
 velh += vel;
@@ -14,7 +16,7 @@ if(place_meeting(x+velh, y, obj_wall)){
 	vel *= -1;
 }
 
-if(!window_has_focus() || global.dead) exit;
+if(global.dead) exit;
 
 if(place_meeting(x + velh, y, obj_wall)){
 	while!(place_meeting(x + sign(velh), y, obj_wall)){
