@@ -1,4 +1,4 @@
-if(!global.dead){
-	amou_but++;
-	image_index = 1;
-}
+if(pressed) exit;
+pressed = true;
+global.amou_but++;
+image_index = 1;
