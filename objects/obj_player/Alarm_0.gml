@@ -1,5 +1,4 @@
 global.dead = false;
-image_speed = 1;
 image_angle = 0;
 gravity = 0;
 vspeed = 0;

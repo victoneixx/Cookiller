@@ -1,1 +1,1 @@
-open_door = "closed"
+open_door = false;
