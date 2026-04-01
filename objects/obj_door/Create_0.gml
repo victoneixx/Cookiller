@@ -1,1 +1,1 @@
-open_door = false;
+activated = 1;

@@ -1,3 +1,2 @@
-pressed = false;
-global.amou_but = 0;
+activated = 1;
 image_index = 0;
