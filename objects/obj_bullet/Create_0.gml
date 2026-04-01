@@ -1,0 +1,1 @@
+speed_shot = 2;

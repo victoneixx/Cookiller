@@ -6,7 +6,7 @@ if(!window_has_focus()){
 	}
 
 	switch(change){
-		case true: text_c = #D3D3D3; break;
+		case true: text_c = c_gray; break;
 		case false: text_c = c_white; break;
 	}
 }

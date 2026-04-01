@@ -12,7 +12,7 @@ global.timer += ":";
 if(global.t_mil > 9){global.timer += ""+string(global.t_mil)}
 if(global.t_mil < 10){global.timer += "0"+string(global.t_mil)}
 
-draw_text_shadow_ext(1.2, cam_h-14.2, string(global.timer), 1.6, c_gray, text_c, 0, 999, 1.6, 1.6, 0);
+draw_text_shadow_ext(1.2, cam_h-14.2, string(global.timer), 1.6, c_gray, c_white, 0, 999, 1.6, 1.6, 0);
 
 draw_set_halign(0);
 draw_set_valign(0);

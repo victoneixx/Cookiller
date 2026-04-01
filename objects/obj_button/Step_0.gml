@@ -3,5 +3,3 @@ if(global.amou_but >= instance_number(obj_button)){
 		open_door = true;
 	}
 }
-
-//show_debug_message(amou_but);

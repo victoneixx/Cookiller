@@ -1,0 +1,3 @@
+if(alarm[0] < 0){
+	alarm[0] = set_delay;
+}

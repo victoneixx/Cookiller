@@ -1,0 +1,1 @@
+path_start(set_path_walk, set_path_speed, set_path_action, false);
