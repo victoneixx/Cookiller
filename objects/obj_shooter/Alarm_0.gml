@@ -1,4 +1,4 @@
-if(!window_has_focus()) exit;
+if(!window_has_focus() || global.start) exit;
 var _bullet = instance_create_layer(x, y, layer, obj_bullet);
 _bullet.direction = 90*set_shot_direction;
 _bullet.speed = 2

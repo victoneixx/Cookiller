@@ -1,5 +1,7 @@
+if(global.over) exit;
 global.dead = false;
 image_angle = 0;
+image_speed = 1;
 gravity = 0;
 vspeed = 0;
 hspeed = 0;

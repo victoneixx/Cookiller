@@ -7,7 +7,7 @@
     "path": "sprites/spr_room/spr_room.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,

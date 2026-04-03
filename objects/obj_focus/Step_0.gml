@@ -1,4 +1,4 @@
-if(!window_has_focus()){
+if(!window_has_focus() || global.start){
 	change_timer--;
 	if(change_timer < 0){
 		change =! change
