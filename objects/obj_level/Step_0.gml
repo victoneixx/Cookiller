@@ -1,4 +1,5 @@
 if(global.over && keyboard_check_pressed(vk_space)){
+	room_goto(rm_level01);
 	global.over = false;
 	global.start = true;
 	global.t_min = 10;

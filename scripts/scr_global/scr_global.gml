@@ -2,8 +2,10 @@ global.myfont = font_add_sprite_ext(fnt_text, "ABCDEFGHIJKLMNOPQRSTUVWXYZ" + "ab
 global.dead = false;
 global.start = true;
 global.over = false;
-global.collec = 0;
+global.win = false;
 global.death_counter = 0;
+global.ckp_x = 0;
+global.ckp_y = 0;
 
 
 global.t_min = 0;
